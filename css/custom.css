@@ -1,0 +1,120 @@
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+/* General Reset */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel */
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+/* Team Section */
+.container-team {
+  background: #fff;
+  padding: 30px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-thumbnail {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Divider */
+.section-devider {
+  border: none;
+  height: 2px;
+  background-color: #007bff;
+  margin: 30px 0;
+}
+/* Featured Heading */
+.featured-heading {
+  font-size: 2rem;
+  color: #343a40; /* Dark text */
+  margin-bottom: 20px;
+}
+
+.text-muted {
+  color: #6c757d; /* Muted color */
+}
+
+/* Footer */
+.container-footer-section {
+  background: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-footer-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.container-footer-section a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
